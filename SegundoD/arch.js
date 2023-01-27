@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 class ProductManager {
-    #ruta = './SegundoD/products.json'
+    #ruta = '.' 
     constructor(){
         this.path = this.#ruta
     }
